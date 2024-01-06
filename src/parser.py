@@ -28,5 +28,3 @@ def extract_text(pdf_path):
     text = parse_doc(pdf_path)
     cleaned_text = clean_doc(text)
     return cleaned_text
-
-extract_text("../doc.pdf")
